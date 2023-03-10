@@ -37,4 +37,6 @@ class YogaSimulator:
             self.perform_pose()
 
         print("Namaste.")
-
+        
+simulator = YogaSimulator()
+simulator.start_practice()
